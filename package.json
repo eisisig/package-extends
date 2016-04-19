@@ -28,6 +28,7 @@
     "lodash.reduce": "^4.3.0",
     "lodash.uniq": "^4.2.1",
     "lodash.values": "^4.1.0",
+    "minimist": "^1.2.0",
     "semver": "^5.1.0",
     "spawn-npm-install": "^1.2.0"
   }
