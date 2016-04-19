@@ -1,15 +1,17 @@
 {
-  "name": "package-extends",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple solution to extend package.json deps with other files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./index.js",
+  "bin": {
+    "package-extends": "./index.js"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Eisi Sig",
+  "license": "MIT",
   "extends": [
     "./temp",
     "./temp2"
@@ -31,5 +33,14 @@
     "minimist": "^1.2.0",
     "semver": "^5.1.0",
     "spawn-npm-install": "^1.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eisisig/package-extends.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eisisig/package-extends/issues"
+  },
+  "homepage": "https://github.com/eisisig/package-extends#readme"
 }
