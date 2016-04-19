@@ -1,6 +1,6 @@
 {
   "name": "package-extends",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple solution to extend package.json deps with other files",
   "main": "index.js",
   "scripts": {
